@@ -4,6 +4,7 @@ def oxford_comma(array)
       if word == array[-1]
           word.prepend "and "
       elsif array.length == 2
+          word << " "
       else
         word << ", "
       end
