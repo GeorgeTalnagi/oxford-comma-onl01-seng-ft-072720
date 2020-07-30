@@ -1,8 +1,8 @@
 def oxford_comma(array)
   if array.length > 1
     array.each do |word|
+      if array > -1
       word << ", "
-      if array.length > 1 "and"
     end
   end
   array.join()
