@@ -2,7 +2,7 @@ def oxford_comma(array)
   if array.length > 1
     array.each do |word|
       if word == array[-1]
-          "and" word
+          word.push "and"
       else
         word << ", "
       end
