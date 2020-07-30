@@ -1,4 +1,6 @@
 def oxford_comma(array)
-array.join()
-array.join(, )
+  string = ""
+  array.each do |word|
+    word << ","
+  end
 end
