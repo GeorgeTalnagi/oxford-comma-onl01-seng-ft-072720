@@ -3,6 +3,7 @@ def oxford_comma(array)
     array.each do |word|
       if array > -1
       word << ", "
+      end
     end
   end
   array.join()
