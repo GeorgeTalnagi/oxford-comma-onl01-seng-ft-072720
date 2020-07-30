@@ -3,6 +3,7 @@ def oxford_comma(array)
     array.each do |word|
       if word == array[-1]
           word.prepend "and "
+      elsif array.length == 2
       else
         word << ", "
       end
